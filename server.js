@@ -7,7 +7,7 @@ const app = express();
 
 // 🔥 MUST COME FIRST
 app.use(cors({
-  origin: ["https://gagan-eosin.vercel.app/", "http://localhost:5173"],   // allow all origins
+  origin: ["https://gagan-eosin.vercel.app", "http://localhost:5173"],   // allow all origins
   methods: "GET,POST,PUT,DELETE",
   allowedHeaders: "Content-Type,Authorization",
   credentials: true
